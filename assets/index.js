@@ -1,7 +1,14 @@
+let myLeads = [];
+const inputEl = document.getElementById("input-el");
 const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
 
-function saveInput() {
+inputBtn.addEventListener("click", function () {
+  myLeads.push(inputEl.value);
   console.log("button clicked");
-}
+});
 
-inputBtn.addEventListener("click", saveInput);
+// Render the leads in the unordered list using ulEl.textContent
+for (let i = 0; i < myLeads.length; i++) {
+  ulEl.textContent += myLeads[i] + "";
+}
