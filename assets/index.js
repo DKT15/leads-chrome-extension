@@ -8,7 +8,7 @@ inputBtn.addEventListener("click", function () {
   console.log("button clicked");
 });
 
-// Render the leads in the unordered list using ulEl.textContent
+// Render the leads in the unordered list to be in a listed item using ulEl.innerHTML
 for (let i = 0; i < myLeads.length; i++) {
-  ulEl.textContent += myLeads[i] + "";
+  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
 }
