@@ -54,7 +54,7 @@ To use this Chrome Extension:
 
 ## Deployment
 
-You can access the website with this link.(https://github.com/DKT15/leads-chrome-extension/)
+You can access the extension with this [link.](https://github.com/DKT15/leads-chrome-extension/)
 
 ## Contributing
 
